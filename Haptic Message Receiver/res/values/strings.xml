@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Haptic Message Receiver</string>
+    <string-array name="message_in_array">
+        <item>Andy</item>
+        <item>Anna</item>
+        <item>Brian</item>
+        <item>Chris</item>
+        <item>David</item>
+        <item>Eliza</item>
+        <item>Francis</item>
+        <item>George</item>
+        <item>Matt</item>
+        <item>Mike</item>
+        <item>Rachel</item>
+        <item>Sarah</item>
+        <item>Steve</item>
+        <item>Will</item>
+    </string-array>
+</resources>

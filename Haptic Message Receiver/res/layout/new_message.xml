@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:paddingTop="10px" 
+	android:paddingRight="10px" 
+	android:paddingLeft="10px" 
+	android:paddingBottom="10px">
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/open_message_title" 
+			android:text="Message" 
+			android:layout_centerHorizontal="true">
+		</TextView>
+		<TextView 
+			android:layout_centerHorizontal="true" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_below="@+id/open_message_title" 
+			android:id="@+id/message_from" 
+			android:paddingTop="10px" 
+			android:paddingBottom="10px">
+		</TextView>
+		<TextView 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:layout_below="@+id/message_from" 
+			android:id="@+id/message_content" 
+			android:paddingRight="10px" 
+		 	android:paddingLeft="10px">
+		</TextView>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:id="@+id/reply" 
+			android:text="Reply" 
+			android:layout_alignParentBottom="true" 
+			android:layout_width="100px">
+		</Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="100px" 
+			android:layout_alignParentBottom="true" 
+			android:layout_centerHorizontal="true" 
+			android:text="Delete" 
+			android:id="@+id/delete" 
+			android:layout_alignParentRight="true">
+		</Button>
+</RelativeLayout>

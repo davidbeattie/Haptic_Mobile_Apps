@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Haptic Library List</string>
+    
+    <string-array name="library_array">
+        <item>Incoming Call</item>
+        <item>Call Connected</item>
+        <item>Call Ended</item>
+        <item>Divert Call</item>
+        <item>Reject Call</item>
+        <item>Silence Call</item>
+        <item>Unended Call Alert</item>
+        <item>Voicemail Received</item>
+        <item>Incoming Message</item>
+        <item>Outgoing Message</item>
+        <item>Emoticon - Happy</item>
+        <item>Emoticon - Sad</item>
+        <item>Emoticon - Angry</item>
+        <item>Emoticon - Love</item>
+        <item>Inbox Button</item>
+        <item>Compose Button</item>
+        <item>Sent Items Button</item>
+        <item>Discard Message</item>
+        <item>Message Saved</item>
+        <item>Add Contact</item>
+        <item>Attach</item>
+        <item>Delete Short Press</item>
+        <item>Delete Long Press</item>
+        <item>Phone Lock</item>
+        <item>Phone Unlock</item>
+        <item>Rollover</item>
+        <item>Power ON</item>
+        <item>Power OFF</item>
+        <item>Tab Switch</item>
+        <item>Back Button</item>
+        <item>Short Click</item>
+        <item>Long Click</item>
+        <item>Key Press Up</item>
+        <item>Key Press Down</item>
+        <item>Confirm YES</item>
+        <item>Confirm NO</item>
+        <item>Drag Effect</item>
+    </string-array>     	  
+</resources>

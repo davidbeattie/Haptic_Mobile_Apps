@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string name="app_name">Haptic Dialer</string>
+    <string-array name="contacts_array">
+        <item>Andy</item>
+        <item>Anna</item>
+        <item>Brian</item>
+        <item>Chris</item>
+        <item>David</item>
+        <item>Eliza</item>
+        <item>Francis</item>
+        <item>George</item>
+        <item>Matt</item>
+        <item>Mike</item>
+        <item>Rachel</item>
+        <item>Sarah</item>
+        <item>Steve</item>
+        <item>Will</item>
+    </string-array>
+    
+    <string-array name="numbers_array">
+        <item>07711782787</item>
+        <item>01339998333</item>
+        <item>01298376637</item>
+        <item>07983833838</item>
+        <item>07227228838</item>
+        <item>01302020202</item>
+        <item>00298772722</item>
+        <item>07789827778</item>
+        <item>02028282982</item>
+        <item>08452929292</item>
+        <item>08002992929</item>
+        <item>07252653733</item>
+        <item>07799282827</item>
+        <item>01011011011</item>
+    </string-array>
+    
+    <string-array name="voicemail_array">
+        <item>Voicemail 1 (UNREAD)</item>
+        <item>Voicemail 2</item>
+        <item>Voicemail 4</item>
+        <item>Voicemail 5</item>
+        <item>Voicemail 6</item>
+        <item>Voicemail 7</item>
+        <item>Voicemail 8</item>
+        <item>Voicemail 9</item>
+    </string-array>
+</resources>

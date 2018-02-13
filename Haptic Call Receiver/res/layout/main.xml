@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout 
+	android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_x="110px" 
+			android:layout_y="370px" 
+			android:id="@+id/btn_reject" 
+			android:layout_width="100px" 
+			android:text="Reject">
+		</Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_x="110px" 
+			android:layout_y="320px" 
+			android:layout_width="100px" 
+			android:text="Divert" 
+			android:id="@+id/btn_divert">
+		</Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_x="110px" 
+			android:layout_y="270px" 
+			android:text="Answer" 
+			android:id="@+id/btn_answer" 
+			android:layout_width="100px">
+		</Button>
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_y="140px" 
+			android:id="@+id/callingtext" 
+			android:text="Private Number Calling..." 
+			android:textSize="18sp" 
+			android:typeface="sans" 
+			android:textStyle="bold" 
+			android:layout_x="60px" 
+			android:textColor="#FF0000">
+		</TextView>
+</AbsoluteLayout>

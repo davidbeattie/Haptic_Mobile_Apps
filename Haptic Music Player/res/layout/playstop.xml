@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:paddingLeft="10px" 
+	android:paddingTop="10px">
+	<Button 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_alignParentBottom="true" 
+		android:layout_alignParentRight="true" 
+		android:text="Back" 
+		android:id="@+id/back2">
+	</Button>
+	<Button 
+		android:layout_height="wrap_content" 
+		android:layout_above="@+id/back2" 
+		android:id="@+id/play" 
+		android:text="Play" 
+		android:layout_width="150px">
+	</Button>
+	<TextView 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/now_playing" 
+		android:text="Now Playing" 
+		android:paddingLeft="10px">
+	</TextView>
+	<TextView 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/artist_playing" 
+		android:layout_below="@+id/now_playing">
+	</TextView>
+	<Button 
+		android:layout_height="wrap_content" 
+		android:layout_above="@+id/back2" 
+		android:text="Stop" 
+		android:layout_toRightOf="@+id/play" 
+		android:id="@+id/stop" 
+		android:layout_width="150px">
+	</Button>
+	<ImageView 
+		android:layout_width="wrap_content" 
+		android:layout_toRightOf="@+id/play" 
+		android:layout_above="@+id/stop" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/image">
+	</ImageView>
+</RelativeLayout>
+
+
+

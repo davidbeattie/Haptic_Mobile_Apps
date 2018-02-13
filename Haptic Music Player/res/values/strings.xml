@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Haptic Music Player</string>
+    <string-array name="library_array">
+        <item>All Tracks</item>
+        <item>Playlist</item>
+        <item>Recently Played</item>
+        <item>Albums</item>
+        <item>Artists</item>
+        <item>Composers</item>
+    </string-array>    
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:paddingTop="20px" 
+	android:paddingLeft="20px" 
+	android:paddingRight="20px">
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="Messaging" 
+			android:textColor="#0000FF" 
+			android:textSize="24sp" 
+			android:id="@+id/messaging" 
+			android:layout_alignParentTop="true" 
+			android:layout_centerHorizontal="true" 
+			android:paddingBottom="10px">
+		</TextView>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true" 
+			android:layout_below="@+id/messaging" 
+			android:layout_width="fill_parent" 
+			android:text="INBOX" 
+			android:id="@+id/inbox">
+		</Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true" 
+			android:layout_below="@+id/inbox" 
+			android:layout_width="fill_parent" 
+			android:text="COMPOSE" 
+			android:id="@+id/compose">
+		</Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true" 
+			android:layout_below="@+id/compose" 
+			android:layout_width="fill_parent" 
+			android:text="SENT" 
+			android:id="@+id/sent">
+		</Button>
+</RelativeLayout>

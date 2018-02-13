@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Program Files/Immersion Corporation/TouchSense/Tools/SDK/lib/Java/ImmVibeAndroid.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Program Files/Immersion Corporation/TouchSense/Tools/SDK/lib/Java/ImmVibeAndroid.jar!/doc-android"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Immersion Corporation/TouchSense/Tools/SDK/lib/Java/ImmVibe.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Program Files/Immersion Corporation/TouchSense/Tools/SDK/lib/Java/ImmVibe.jar!/doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
